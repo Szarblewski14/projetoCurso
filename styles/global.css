@@ -30,7 +30,7 @@
 }
 
 body{
-    background-color: #111012;
+    background-color: #0a090a;
     font-family: "Roboto Mono", monospace;
     color: var(--content-secondary);
 }
@@ -38,7 +38,7 @@ body{
 h1, h2, h3 {
     font-family: "Roboto Flex", sans-serif;
     color: var(--content-primary);
-    font-weight: 800;
+    font-weight: 700;
     font-size: 3rem;
 }
 
