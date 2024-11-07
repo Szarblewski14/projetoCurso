@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --content-primary: #FFFFFF;
+    --content-secondary: #C7C9CC;
+    --content-ternary: #D9D9D9;
+    --contend-brand: #C58DE7;
+
+    --color-inverse: #030203;
+
+    --bg-primary: #020202;
+    --bg-secondary: #111012;
+    --bg-ternary: #24222E;
+    --bg-brand: #C58DE7;
+    --bg-gray: #3D3D3D;
+
+    --accent-pink: #D586E0;
+    --accent-blue: #91A1FA;
+    --accent-green: #77C0AA;
+    --accent-lime: #D1DC97;
+    --accent-red: #E9A9B3;
+
+    --gradient-border: #77C0AF 0%, #D1DC97 14.84%, #E9A9B3 32.15%, #D586E0 65.79%, #91A1FA 84.58%;
+    --gradient-bg: #D586E0 0%, #91A1FA 98.93%;
+    --gradient-content: #C7C9CC 0%, #3D3D3D 100%;
+}
+
+body{
+    background-color: #111012;
+    font-family: "Roboto Mono", monospace;
+    color: var(--content-secondary);
+}
+
+h1, h2, h3 {
+    font-family: "Roboto Flex", sans-serif;
+    color: var(--content-primary);
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+span {
+    color: var(--contend-brand);
+    font-size: 1rem;
+}
