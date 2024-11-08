@@ -88,21 +88,40 @@ img {
 
 
 @media(max-width: 620px){
-    #aside1{
+   #teste{
+    overflow-y: hidden;
+   }
+    .sorteio {
+        display: flex;
         position: absolute;
-        display: flex;
-        margin-top: 15rem;
-        margin-left: 2rem;
-    }
+        flex-direction: column;
+        margin-top: 12rem;
+        margin-left: 8rem;
 
-   
-    img{
-        display: flex;
-        margin: auto;
+        .descrition {
+            font-size: .8rem;
+            margin-top: .5rem;
+        }
+
+        h3{
+            font-size: 1.5rem;
+        }
+
+        #btn {
+            width: 100%;
+        }
+
+        #title {
+            display: flex;
+            margin: auto;
+            margin-top: 2rem;
+            width: 40%;
+        }
     }
 
 
     #container{
+        margin-left: 4rem;
         h1{
             display: flex;
             margin-top: 2rem;
