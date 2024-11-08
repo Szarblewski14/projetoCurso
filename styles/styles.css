@@ -47,11 +47,34 @@ img {
     
     margin: auto;
     margin-top: 2rem;
-    max-width: 55%;
-    margin-left: ;
+    
+    #btn {
+        border: none;
+        padding: 1rem;
+        width: 20rem;
+        border-radius: .5rem;
+        cursor: pointer;
 
-    h3{
-        font-size: 1.5rem;
+        
+        color: var(--content-primary);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        font-weight: 800;  
+        font-size: 1rem;
+        border: 2px solid var(--bg-secondary);
+        background-color: var(--bg-ternary);
+    }
+
+    #btn:hover {
+        background-color: #24222ed2;
+        transition: .5s;
+    }
+    
+    img{
+        position: absolute;
+        margin-left: 7rem;
     }
 }
 
@@ -69,7 +92,10 @@ img {
 
 @media(max-width: 620px){
     #aside1{
-        display: none;
+        position: absolute;
+        display: flex;
+        margin-top: 15rem;
+        margin-left: 2rem;
     }
 
    
